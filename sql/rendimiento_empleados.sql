@@ -1,4 +1,5 @@
-ALTER VIEW  Análisis_de_Rendimiento_x_Empleado  AS*/
+ALTER VIEW  Análisis_de_Rendimiento_x_Empleado 
+AS*/
 select top 10 O.OrderDate, E.FirstName+ ' '+ E.LastName as Empleado, 
 	C.CategoryName as Categoria,
 	count(O.OrderID) AS Orden_Total,
